@@ -1,0 +1,118 @@
+<div>
+  <!DOCTYPE html>
+</div>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio pessoal</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+  <!-- Crei uma div 'container' para centralizar todos os elementos do projeto-->
+
+  <div class="container">
+    <div id="titulo">
+      <h1>Portfólio Pessoal</h1>
+    </div>
+
+    <!-- Na foto principal usei o border-radios para deixá-la arredondada-->
+
+    <hr>
+    <br>
+    <img src="Matheus foto.jfif" alt="fotoprincipal" id="foto">
+    <p id="name">Matheus Mariz</p>
+
+    <!-- Todos os links estão na mesma div centralizados com o text-align:center -->
+
+    <nav>
+      <div class="links">
+        <a class="link" href="#sobre_mim">Sobre mim</a> |
+        <a class="link" href="#formacao">Formação</a> |
+        <a class="link" href="#Portfolio">Portfólio</a> |
+        <a class="link" href="#contato">Contato</a>
+      </div>
+    </nav>
+    <h2 id="sobre_mim">Sobre mim</h2>
+    <p>
+      Olá, meu nome é Matheus Mariz e sou entusiasta em explorar a interseção entre arte e tecnologia. Desde cedo,
+      desenvolvi
+      um amor profundo pelas artes visuais e pelo desenho, encontrando satisfação em capturar o mundo ao meu redor
+      através de
+      linhas e cores.</p>
+    <p>Minha fascinação por tecnologia complementa e amplifica minhas paixões artísticas. Estou sempre em busca de
+      novas
+      ferramentas e técnicas digitais que possam expandir as fronteiras da minha criatividade. Acredito que a tecnologia
+      tem o
+      poder de transformar e elevar a arte, permitindo a criação de obras inovadoras e interativas que cativam e
+      inspiram.
+    <p>Em resumo, sou uma pessoa que vive no cruzamento entre a arte e a tecnologia, usando minhas habilidades e paixões
+      para
+      criar e explorar novos horizontes. Estou sempre em busca de novas oportunidades para aprender, crescer e
+      compartilhar
+      meu trabalho com o mundo.</p>
+
+    <!-- Seta para atualizar a página e voltar para o início, dando a opção novamente do usuário escolher novamente de forma dinâmica -->
+
+    <div id="seta"><a href="index.html"><img src="66822.png" alt="voltar" width="25"></a></div>
+    </p>
+    <hr>
+    <h2 id="formacao">Formação</h2>
+    <p> - Atualmente curso Análise e desenvolvimento de Sistemas pela universidade <a
+        href="https://www.uninter.com/?gad_source=1&gclid=Cj0KCQjwxqayBhDFARIsAANWRnTPd67ZogPNTzcxg3y7uQP1wMZz30XggVWud_7kkNS3ClTAyJsAFtgaAvLvEALw_wcB"
+        target="_blank">UNINTER</a></p>
+    <p> - Sou formando em Marketing Digital pela <a
+        href="https://estacio.br/inscricao?&mkwid=s5wck3t2v&pcrid=687581396292&pdv=c&pmt=e&pkw=estacio&product=&pgrid=114827394905&cpgnid=11876762522&ptaid=aud-447275875080:kwd-734155896&adext=&gad_source=1&gclid=Cj0KCQjwxqayBhDFARIsAANWRnSjc056CkSjC6T4lEEyVAkjCInjxx0NygfTyyhj_0iJ95C7SbNgXUcaArupEALw_wcB&gclsrc=aw.ds"
+        target="_blank">Estácio</a>
+      (2018 - 2020)</p>
+    <p> - Cursei Arquitetura durantes 2 anos na <a href="https://www.unb.br/" target="_blank">UNB</a> (Universidade de
+      Brasília) (2018 - 2019)</p>
+    <p> - Cursos na areá de tecnologia:
+    <ul>
+      <li>CC50: Introdução à Ciência da Computação - O Curso de Harvard (2022)</li>
+      <li>Quality Assurance Mastery - Manual Software Testing (2023)</li>
+      <li>Início Rápido em Teste e QA (2024)</li>
+      <li>Arquitetura de Redes (2024)</li>
+    </ul>
+    </p>
+    <p> - Inglês avançado</p>
+    <div id="seta"><a href="index.html"><img src="66822.png" alt="voltar" width="25"></a></div>
+    <hr>
+    <h2 id="Portfolio">Portfólio</h2>
+    <p>Peril de rojetos e atividades:</p>
+    <div id="redesocial"><img src="linkedin.png" alt="linkedin" width="30"> <a href="https://linkedin.com/in/mattmariz"
+        target="_blank">https://linkedin.com/in/mattmariz</a></div>
+    <img id="redesocial" src="GitHub_Invertocat_Logo.svg.png" alt="github" width="30"> <a
+      href="https://github.com/mattmariz" target="_blank">https://github.com/mattmariz</a>
+    <div id="seta"><a href="index.html"><img src="66822.png" alt="voltar" width="25"></a></div>
+
+    <!-- Âncoras com o "target_blank" para abrir novas abas-->
+
+    <hr>
+    <h2 id="contato">Contato</h2>
+    <div class="f">
+
+      <!-- Form criado usando 'label' para linkar com os inputs -->
+
+      <form action="">
+        <label for="/name">Nome:</label>
+        <input type="text" id="/name" name="nome" placeholder="Matheus Silva Tavares Mariz"> -
+        <label for="/email">Email:</label>
+        <input type="email" id="/email" name="email" placeholder="mtmjack2@gmail.com">
+        <div class="whats">
+          <label for="/tel">WhatsApp:</label>
+          <input type="tel" id="/tel" name="tel" placeholder=(61)996963017>
+        </div>
+        <br>
+        <textarea name="textarea" id="textarea" placeholder="Envie uma mensagem" cols="60"></textarea>
+        <button type="submit" class="whats">Enviar</button>
+      </form>
+      <div id="seta"><a href="index.html"><img src="66822.png" alt="voltar" width="25"></a></div>
+    </div>
+  </div>
+</body>
+
+</html>

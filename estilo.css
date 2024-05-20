@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=IM+Fell+English+SC&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+  background-color: rgb(0, 15, 48);
+}
+
+h1 {
+  text-align: center;
+  border: 2px solid;
+  border-radius: 10px;
+  width: 30%;
+  margin: auto;
+  background-color: #07dfdf;
+  font-family: 'Libre Baskerville';
+}
+
+#titulo {
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+#foto {
+  border: 3px solid;
+  border-radius: 300px;
+  border-color: #07dfdf;
+  width: 250px;
+}
+
+#name {
+  text-align: center;
+  font-style: italic;
+}
+
+.container {
+  width: 80%;
+  margin: 0px auto 0px auto;
+  margin-top: -8px;
+  padding-bottom: 12px;
+  margin-bottom: -10px;
+  background-color: rgb(248, 232, 210);
+}
+
+h2 {
+  margin-left: 80px;
+  font-size: 35px;
+  font-family: 'Cutive';
+}
+
+li {
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+  font-family: 'Cutive';
+}
+
+.link {
+  border: 2px solid black;
+  padding: 5px;
+  font-family: 'IM Fell English SC';
+  background-color: #07dfdf;
+}
+
+.links {
+  text-align: center;
+}
+
+#foto {
+  display: block;
+  margin: auto;
+}
+
+#desenho {
+  border-radius: 20px;
+  margin-left: 700px;
+}
+
+form {
+  width: 500px;
+  margin-left: 50px;
+}
+
+#seta {
+  margin-left: 95%;
+}
+
+#redesocial {
+  margin-left: 50px;
+}
+
+.whats {
+  margin-top: 20px;
+}
